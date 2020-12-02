@@ -5,7 +5,7 @@ Feature: Beans
 
   Background:
     Given the coffee machine is started
-    And I handle everything except the beans
+    But I handle everything except the beans
 
   Scenario: Message "Fill beans" is displayed after 38 coffees are taken
     When I take "38" coffees
